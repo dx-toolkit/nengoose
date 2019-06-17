@@ -1,0 +1,27 @@
+{
+  "name": "nengoose",
+  "version": "1.0.0",
+  "description": "ODM for Nedb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asp143/nengoose.git"
+  },
+  "keywords": [
+    "ODM"
+  ],
+  "author": "asp143",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asp143/nengoose/issues"
+  },
+  "homepage": "https://github.com/asp143/nengoose#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "lodash": "^4.17.11",
+    "nedb": "^1.8.0"
+  }
+}
