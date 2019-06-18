@@ -15,5 +15,6 @@ const user = User.Schema({
 user
 .Create({ name: 1, password: 1})
 .then((result) => {
-    console.log(result);
+    console.log(result, "RESULT");
 })
+.catch((err) => console.log(err))

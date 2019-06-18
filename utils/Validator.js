@@ -21,7 +21,7 @@ const ValidateSchema = (origSchema, optionSchema) => {
             if(err === null) {
                 resolve(true);
             } else {
-                resolve(false);
+                resolve(err.details);
             }
         });
     });
