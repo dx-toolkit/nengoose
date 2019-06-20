@@ -11,18 +11,32 @@
     "url": "git+https://github.com/asp143/nengoose.git"
   },
   "keywords": [
-    "ODM"
+    "nedb",
+    "document",
+    "model",
+    "schema",
+    "database",
+    "odm",
+    "data",
+    "datastore",
+    "query",
+    "nosql",
+    "orm",
+    "db"
   ],
   "author": "asp143",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/asp143/nengoose/issues"
   },
   "homepage": "https://github.com/asp143/nengoose#readme",
   "dependencies": {
-    "@hapi/joi": "^15.0.3",
-    "lodash": "^4.17.11",
-    "nedb": "^1.8.0"
+    "@hapi/joi": "15.0.3",
+    "lodash": "4.17.11",
+    "nedb": "1.8.0"
   },
-  "types": "./index.d.ts"
+  "types": "./index.d.ts",
+  "devDependencies": {
+    "eslint": "5.16.0"
+  }
 }

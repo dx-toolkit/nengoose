@@ -17,9 +17,9 @@ declare namespace nengoose {
     class Model {
         constructor(database: string, schema: any);
         /**
-         * 
-         * @param newData 
-         */
+     * Appends a new document to the nedb instance
+     * @param {*} newData 
+     */
         Create(newData): Promise<any>;
         
 
@@ -50,7 +50,7 @@ declare namespace nengoose {
         DeleteById(id, options): Promise<any>;
         
         /**
-         * 
+         * Updates a document to the nedb instance
          * @param query 
          * @param newData 
          * @param options 

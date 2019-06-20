@@ -1,0 +1,46 @@
+{
+    "parser": "babel-eslint",
+    "plugins": [
+        "flowtype",
+        "jest"
+    ],
+    "rules": {
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        // "camelcase": "error",
+        "comma-spacing": "error",
+        "func-style": ["error", "expression", {
+            "allowArrowFunctions": true
+        }],
+        "implicit-arrow-linebreak": ["error", "beside"],
+        "key-spacing": ["error", {
+            "beforeColon": false
+        }],
+        "max-depth": ["error", 4],
+        "max-nested-callbacks": ["error", 3],
+        "no-lonely-if": "error",
+        "no-tabs": "error",
+        "semi": ["error", "always"],
+        "space-before-blocks": "error",
+        "space-infix-ops": "error",
+        "brace-style": "error",
+        "no-undef": "error",
+        "no-unused-vars": "error",
+        "no-unused-expressions": "error"
+    },
+    "settings": {
+        "flowtype": {
+            "onlyFilesWithFlowAnnotation": true
+        }
+    },
+    "env": {
+        "node": true,
+        "jest/globals": true
+    },
+    "globals": {
+        "Promise": true,
+        "describe": true,
+        "it": true,
+        "beforeEach": true,
+        "afterEach": true
+    }
+}
