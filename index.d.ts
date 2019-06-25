@@ -3,22 +3,25 @@ declare namespace nengoose {
         constructor(database: string);
 
         /**
-         * 
+         * Initializes a Database schema
          * @param schema 
          */
         Schema(schema: any): Model;
     
         /**
          * Returns the string location of the database
+         * @returns string
          */
         getDatabaseLocation(): string;
     }
 
     class Model {
         constructor(database: string, schema: any);
+    
         /**
      * Appends a new document to the nedb instance
-     * @param {*} newData 
+     * @param {*} newData
+     * @returns Promise<any>
      */
         Create(newData): Promise<any>;
         
