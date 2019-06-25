@@ -1,6 +1,10 @@
 const joi = require('@hapi/joi');
 const _ = require('lodash');
 
+/**
+ * 
+ * @param {object} schema 
+ */
 const CreateJoiSchema = (schema) => {
     const JoiSchema = { };
 
@@ -13,7 +17,11 @@ const CreateJoiSchema = (schema) => {
     });
     return JoiSchema;
 };
-
+/**
+ * 
+ * @param {Object} origSchema 
+ * @param {Object} optionSchema 
+ */
 const ValidateSchema = (origSchema, optionSchema) => {
     const JoiSchema = CreateJoiSchema(origSchema);
     return new Promise((resolve, reject) => {
