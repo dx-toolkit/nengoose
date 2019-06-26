@@ -11,8 +11,10 @@ const CreateJoiSchema = (schema) => {
     _.forOwn(schema, (value, key) => {
         if(value.type.name === 'String') {
             JoiSchema[key] = joi.string()
-        } else if (value.type.name === 'number') {
+        } else if (value.type.name === 'Number') {
             JoiSchema[key] = joi.number();
+        } else if(value.type.name === 'Array') {
+            JoiSchema[key] = joi.array();
         }
     });
     return JoiSchema;
