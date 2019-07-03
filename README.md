@@ -1,7 +1,8 @@
 # Nengoose
 
 This is a ODM wrapper for nedb.
-#Looking for contributors!
+
+# Looking for contributors!
 
 
 ## Overview
