@@ -13,7 +13,7 @@ const user = User.Schema({
 });
 
 user
-.Create({ name: 1, password: 1})
+.Create({ user: "HEEEY", password: "a"})
 .then((result) => {
     console.log(result, "RESULT");
 })
