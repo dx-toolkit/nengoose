@@ -1,6 +1,6 @@
 {
   "name": "nengoose",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ODM for Nedb",
   "main": "index.js",
   "scripts": {
