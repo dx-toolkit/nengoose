@@ -2,10 +2,8 @@
 
 This is a ODM wrapper for nedb.
 
-# Looking for contributors!!
-[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
+![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)
+![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 
@@ -28,17 +26,17 @@ const User =  new database("path/to/db");
 To create a database schema we will have to 
 
 ```js
-    const User = new database("path/to/db");
+const User = new database("path/to/db");
 
-    const user = User.Schema({
-        user: {
-            type: String
-        },
-        password: {
-            type: String
-        },
-        address: {
-            type: Array
-        }
-    });
+const user = User.Schema({
+    user: {
+        type: String
+    },
+    password: {
+        type: String
+    },
+    address: {
+        type: Array
+    }
+});
 ```
