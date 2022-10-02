@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/asp143/nengoose#readme",
   "dependencies": {
-    "@hapi/joi": "15.0.3",
+    "@hapi/joi": "15.1.1",
     "async": "3.1.0",
     "nedb": "1.8.0"
   },
